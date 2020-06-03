@@ -61,7 +61,6 @@ header img {
 display: inline-block;
 border-radius: 50%;
 width: 30%;
-
 }
 
 div.main-head {
@@ -77,6 +76,20 @@ h1 {
     font-family: 'Chelsea Market', cursive;
 font-size: 5rem;
 margin-bottom: 2rem;
+
+}
+
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 a:hover {
+    text-decoration: underline;
+}
+
+h1:hover {
+    
 }
 
 div.main-head p {
@@ -134,3 +147,93 @@ footer {
     padding-bottom: 2rem;
 }
 
+.active {
+    opacity: 65%;
+    color: black;
+    border: 1px solid black;
+}
+
+/* get involved page */
+
+section#get-involved {
+    background-color: #ffcd69;
+    padding: 5%;
+    text-align: center;
+}
+
+section#get-involved h2 {
+margin-bottom: 1rem;
+}
+
+section#get-involved a {
+    display: inline-block;
+    background-color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+section#get-involved a:hover {
+    color: #ffcd69;
+    background-color: black;
+}
+
+
+/* plan a visit page */
+
+section#plan-visit {
+    background-color: #FF764e;
+    padding: 5%;
+    text-align: center;
+}
+
+section#plan-visit h2 {
+margin-bottom: 1rem;
+}
+
+section#plan-visit a {
+    display: inline-block;
+    background-color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+section#plan-visit a:hover {
+    color: #FF764e;
+    background-color: black;
+}
+
+/* Learn more page */
+
+section#learn-more {
+    background-color: #5ed3eb;
+    padding: 5%;
+    text-align: center;
+}
+
+section#learn-more h2 {
+margin-bottom: 1rem;
+}
+
+section#learn-more a {
+    display: inline-block;
+    background-color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+section#learn-more a:hover {
+    color: #5ed3eb;
+    background-color: black;
+}
