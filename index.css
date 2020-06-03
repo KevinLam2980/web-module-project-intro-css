@@ -3,14 +3,18 @@ box-sizing:border-box;
 padding:0;
 margin:0;
 max-width:100%;
-border:1px solid grey;
+/* border:1px solid grey; */
 }
 
 html{
+    min-width: 880px;
+    max-width: 930px;
+    margin: 0 auto;
 font-size:62.5%;
 }
 
 body {
+    font-family: 'Roboto Mono', monospace;
     font-size: 1.6rem;
 }
 
@@ -22,24 +26,24 @@ margin: 2.5rem 0;
 nav a {
 display: inline-block;
 text-decoration: none;
-width: 20%;
-margin: 0 5%;
-padding: 2% 0;
-font-size: 2rem;
+width: 17%;
+margin: 0 6%;
+padding: .5rem 1.5rem;
+font-size: 1.8rem;
 border-radius: 15px;
 color: white;
 }
 
 nav a.red {
-background-color: red;
+background-color: #FF764e;
 }
 
 nav a.blue {
-background-color: blue;
+background-color: #5ed3eb;
 }
 
 nav a.orange {
-background-color: orange;
+background-color: #ffcd69;
 }
 
 .header-section {
@@ -61,11 +65,12 @@ vertical-align: top;
 text-align: center;
 margin-top: 3rem;
 width: 65%;
-font-size: 2rem;
+font-size: 1.8rem;
 }
 
 h1 {
-font-size: 5.5rem;
+    font-family: 'Chelsea Market', cursive;
+font-size: 5rem;
 margin-bottom: 2rem;
 }
 
@@ -73,13 +78,18 @@ div.main-head p {
 margin: 1rem;
 }
 
+#smaller-p {
+    width: 75%;
+    margin: 0 auto;
+}
+
 #info {
-    background-color: orange;
+    background-color: #ddb9a3;
     color: white;
     padding: 1.5rem;
     max-width: 90%;
     margin: 0 auto 2rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
 
 }
@@ -89,13 +99,14 @@ margin: 1rem;
 }
 
 #icon-section {
+    font-size: 1.4rem;
     text-align: center;
     max-width: 30%;
     margin: 0 auto;
 }
 
 #icon-section img{
-max-width: 60%;
+max-width: 55%;
 }
 
 #icon-section p {
@@ -111,5 +122,10 @@ footer img {
     height: 25rem;
     object-fit: cover;
     object-position: top;
+}
+
+footer {
+    background-color: #f9e7dc;
+    padding-bottom: 2rem;
 }
 
