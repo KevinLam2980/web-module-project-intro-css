@@ -34,6 +34,11 @@ border-radius: 15px;
 color: white;
 }
 
+nav a:hover {
+    opacity: 65%;
+    color: black;
+}
+
 nav a.red {
 background-color: #FF764e;
 }
