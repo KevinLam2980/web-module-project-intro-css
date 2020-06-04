@@ -1,0 +1,239 @@
+*{
+box-sizing:border-box;
+padding:0;
+margin:0;
+max-width:100%;
+/* border:1px solid grey; */
+}
+
+html{
+    min-width: 880px;
+    max-width: 930px;
+    margin: 0 auto;
+font-size:62.5%;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.6rem;
+}
+
+nav {
+text-align: center;
+margin: 2.5rem 0;
+}
+
+nav a {
+display: inline-block;
+text-decoration: none;
+width: 17%;
+margin: 0 6%;
+padding: .5rem 1.5rem;
+font-size: 1.8rem;
+border-radius: 15px;
+color: white;
+}
+
+nav a:hover {
+    opacity: 65%;
+    color: black;
+}
+
+nav a.red {
+background-color: #FF764e;
+}
+
+nav a.blue {
+background-color: #5ed3eb;
+}
+
+nav a.orange {
+background-color: #ffcd69;
+}
+
+.header-section {
+max-width: 90%;
+margin: 3rem auto;
+text-align: center;
+}
+
+header img {
+display: inline-block;
+border-radius: 50%;
+width: 30%;
+}
+
+div.main-head {
+display: inline-block;
+vertical-align: top;
+text-align: center;
+margin-top: 3rem;
+width: 65%;
+font-size: 1.8rem;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+font-size: 5rem;
+margin-bottom: 2rem;
+
+}
+
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 a:hover {
+    text-decoration: underline;
+}
+
+h1:hover {
+    
+}
+
+div.main-head p {
+margin: 1rem;
+}
+
+#smaller-p {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#info {
+    background-color: #ddb9a3;
+    color: white;
+    padding: 1.5rem;
+    max-width: 90%;
+    margin: 0 auto 2rem;
+    font-size: 1.8rem;
+    text-align: center;
+
+}
+
+#info p:first-child {
+    margin-bottom: 1rem;
+}
+
+#icon-section {
+    font-size: 1.4rem;
+    text-align: center;
+    max-width: 30%;
+    margin: 0 auto;
+}
+
+#icon-section img{
+max-width: 55%;
+}
+
+#icon-section p {
+    margin: .5rem 0 5rem;
+}
+
+#icon-section p span{
+    font-weight: bold;
+}
+
+footer img {
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+footer {
+    background-color: #f9e7dc;
+    padding-bottom: 2rem;
+}
+
+.active {
+    opacity: 65%;
+    color: black;
+    border: 1px solid black;
+}
+
+/* get involved page */
+
+section#get-involved {
+    background-color: #ffcd69;
+    padding: 5%;
+    text-align: center;
+}
+
+section#get-involved h2 {
+margin-bottom: 1rem;
+}
+
+section#get-involved a {
+    display: inline-block;
+    background-color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+section#get-involved a:hover {
+    color: #ffcd69;
+    background-color: black;
+}
+
+
+/* plan a visit page */
+
+section#plan-visit {
+    background-color: #FF764e;
+    padding: 5%;
+    text-align: center;
+}
+
+section#plan-visit h2 {
+margin-bottom: 1rem;
+}
+
+section#plan-visit a {
+    display: inline-block;
+    background-color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+section#plan-visit a:hover {
+    color: #FF764e;
+    background-color: black;
+}
+
+/* Learn more page */
+
+section#learn-more {
+    background-color: #5ed3eb;
+    padding: 5%;
+    text-align: center;
+}
+
+section#learn-more h2 {
+margin-bottom: 1rem;
+}
+
+section#learn-more a {
+    display: inline-block;
+    background-color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+section#learn-more a:hover {
+    color: #5ed3eb;
+    background-color: black;
+}
